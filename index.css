@@ -2,3 +2,60 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.top {
+    width:900px;
+   height: 75px;
+   background: #FFF;
+   box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    display:grid;
+    grid-template: 50px 50px 50px / 250px 250px 250px;
+    align-items: center;
+    justify-items: center;
+    grid-column-gap: 2em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size:1.2em;
+}
+
+#col1 {
+    width: 51px;
+height: 34px;
+flex-shrink: 0;
+    border: 0.5px solid #313131;
+    margin-top: 15px;
+}
+.but1{
+display: inline-flex;
+padding: 13px 11px;
+justify-content: center;
+align-items: center;
+border: 1px solid var(--gray-300, #D1D5DB);
+background: var(--white, #FFF);
+margin-top:15px;
+border-radius: 5px;
+
+/* shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}   
+#style {
+color: #111827;
+font-size: 1.5em;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+border: 1px solid grey;
+border-radius: 5px;
+margin-top:15px;
+}
+#patches {
+    display:grid;
+    grid-template-columns: 180px 180px 180px 180px 180px;
+    color:black;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:10px;
+}
