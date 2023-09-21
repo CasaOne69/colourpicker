@@ -19,7 +19,7 @@ html, body {
     font-size:1.2em;
 }
 
-#col1 {
+#color-picker {
     width: 51px;
 height: 34px;
 flex-shrink: 0;
